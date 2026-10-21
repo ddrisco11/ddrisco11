@@ -6,7 +6,7 @@
 
 I’m an **Applied Math student at Columbia University**, originally from **Winchester, Massachusetts**.
 
-My projects explore machine learning, the geometry of embeddings, and computer vision for underwater robotics.
+My projects explore machine learning, the properties of embeddings, computer vision, natural language processing, and more!
 
 ## Highlighted Projects
 
