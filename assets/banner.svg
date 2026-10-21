@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">David Driscoll</title>
+  <desc id="desc">Applied Mathematics at Columbia University. Winchester, Massachusetts to New York, New York.</desc>
+  <rect width="1200" height="330" fill="#eaf0f4"/>
+  <g fill="none" stroke="#aabfce" stroke-width="1.5">
+    <circle cx="1120" cy="165" r="255"/>
+    <circle cx="1120" cy="165" r="210"/>
+    <circle cx="1120" cy="165" r="165"/>
+  </g>
+  <g fill="#20384b">
+    <text x="64" y="82" font-family="monospace" font-size="17" letter-spacing="3">COLUMBIA UNIVERSITY · APPLIED MATHEMATICS</text>
+    <text x="60" y="185" font-family="Georgia, 'Times New Roman', serif" font-size="80" letter-spacing="-2">David Driscoll</text>
+    <text x="64" y="247" font-family="Arial, sans-serif" font-size="22">Winchester, MA → New York, NY</text>
+  </g>
+</svg>
