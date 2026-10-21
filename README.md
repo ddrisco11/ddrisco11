@@ -38,6 +38,16 @@ My projects explore machine learning, the geometry of embeddings, and computer v
       Vision-based object tracking and motor control for autonomous underwater vehicles, developed at Woods Hole Oceanographic Institution.
     </td>
   </tr>
+  <tr>
+    <td width="190" align="center">
+      <a href="https://github.com/ddrisco11/training-market"><img src="assets/training-market.png" alt="Training Market running locally with synthetic demo data and a simulated position" width="180" /></a>
+    </td>
+    <td>
+      <strong><a href="https://github.com/ddrisco11/training-market">Training Market</a></strong><br />
+      A play-money trading prototype for ML training runs, with prices derived from projected training metrics, simulated positions, and a live leaderboard.<br />
+      <sub>Screenshot: synthetic demo.</sub>
+    </td>
+  </tr>
 </table>
 
 ---
