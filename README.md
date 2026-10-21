@@ -2,15 +2,17 @@
   <img src="assets/banner.svg" alt="David Driscoll — Applied Mathematics at Columbia University" width="100%" />
 </p>
 
-<img src="assets/david-driscoll.jpg" alt="David Driscoll" width="180" align="right" />
-
 ### Hi, I’m David.
 
 I’m an **Applied Math student at Columbia University**, originally from **Winchester, Massachusetts**.
 
 Welcome to my corner of GitHub.
 
-<br clear="right" />
+<p>
+  <img src="assets/david-driscoll.jpg" alt="David Driscoll’s portrait" width="21%" />
+  <img src="assets/david-photo-2.jpg" alt="A group photo outdoors at night" width="38%" />
+  <img src="assets/david-photo-3.jpg" alt="Beside the Orpheus underwater vehicle at Woods Hole Oceanographic Institution" width="38%" />
+</p>
 
 ## Currently working on
 
