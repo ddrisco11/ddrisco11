@@ -8,24 +8,37 @@ I’m an **Applied Math student at Columbia University**, originally from **Winc
 
 My projects explore machine learning, the geometry of embeddings, and computer vision for underwater robotics.
 
-## Currently working on
+## Projects
 
-### [PoSSUM](https://github.com/ddrisco11/PoSSUM)
-Comparing individual language models and model mixtures for political viewpoint classification. Explore the evaluation results and the tradeoffs between prediction quality and inference cost.
-
-[Evaluation and limitations →](https://github.com/ddrisco11/PoSSUM#development-comparison)
-
-### [Probabilistic Retrieval Fields](https://github.com/ddrisco11/probabilistic-retrieval-fields)
-Can a small neural router find relevant answers without retraining the embedding model? Use the interactive explorer to compare retrieval quality against how much of the corpus is searched.
-
-[Try the explorer →](https://ddrisco11.github.io/probabilistic-retrieval-fields/)
-
-## Selected earlier work
-
-### [Chase API · Underwater robotics](https://github.com/ddrisco11/chase_api)
-A vision-based control system that turns object detections into motor commands for an autonomous underwater vehicle. Built during my summer 2025 work at Woods Hole Oceanographic Institution.
-
-[See how it works →](https://github.com/ddrisco11/chase_api#how-it-works-in-practice)
+<table>
+  <tr>
+    <td width="190" align="center">
+      <a href="https://github.com/ddrisco11/PoSSUM"><img src="assets/possum.png" alt="PoSSUM model card with an illustrated possum" width="180" /></a>
+    </td>
+    <td>
+      <strong><a href="https://github.com/ddrisco11/PoSSUM">PoSSUM</a></strong><br />
+      Political Slant Scoring Using Mixtures: comparing language models and model mixtures for political viewpoint classification.
+    </td>
+  </tr>
+  <tr>
+    <td width="190" align="center">
+      <a href="https://github.com/ddrisco11/Spatial-Graph-Pipeline"><img src="assets/spatial-graph.png" alt="Spatial graph showing places and their relationships in prose" width="180" /></a>
+    </td>
+    <td>
+      <strong><a href="https://github.com/ddrisco11/Spatial-Graph-Pipeline">Spatial Graph</a></strong><br />
+      An ISO-Space pipeline for mapping spatial relationships in prose into graphs, including expressions beyond conventional place names.
+    </td>
+  </tr>
+  <tr>
+    <td width="190" align="center">
+      <a href="https://github.com/ddrisco11/chase_api"><img src="assets/chase-api.jpg" alt="Chase API underwater robotics project photo" width="180" /></a>
+    </td>
+    <td>
+      <strong><a href="https://github.com/ddrisco11/chase_api">Chase API</a></strong><br />
+      Vision-based object tracking and motor control for autonomous underwater vehicles, developed at Woods Hole Oceanographic Institution.
+    </td>
+  </tr>
+</table>
 
 ---
 
