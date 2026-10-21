@@ -1,5 +1,5 @@
 <p>
-  <img src="assets/banner-nyc.png" alt="David Driscoll — Applied Mathematics at Columbia University, over an NYC skyline" width="100%" />
+  <img src="assets/banner-nyc-photo-v2.png" alt="David Driscoll — Applied Mathematics at Columbia University, over an NYC skyline" width="100%" />
 </p>
 
 ### Hi, I’m David.
