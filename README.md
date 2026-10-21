@@ -47,6 +47,12 @@ My projects explore machine learning, the geometry of embeddings, and computer v
       A play-money trading prototype for ML training runs, with prices derived from projected training metrics, simulated positions, and a live leaderboard.
     </td>
   </tr>
+  <tr>
+    <td width="190" align="center"><strong>More work</strong></td>
+    <td>
+      Some of my work lives in private repositories at the companies I’ve worked with. If you’d like to hear more about what I’ve built, <a href="mailto:david.driscoll@columbia.edu">reach out at david.driscoll@columbia.edu</a> — I’m happy to discuss what I can share.
+    </td>
+  </tr>
 </table>
 
 ## Companies & labs I’ve worked with
