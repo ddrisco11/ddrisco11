@@ -40,7 +40,7 @@ My projects explore machine learning, the geometry of embeddings, and computer v
   </tr>
   <tr>
     <td width="190" align="center">
-      <a href="https://github.com/ddrisco11/training-market"><img src="assets/training-market.png" alt="Training Market running locally with synthetic demo data and a simulated position" width="180" /></a>
+      <a href="https://github.com/ddrisco11/training-market"><img src="assets/training-market-demo-v2.png" alt="Training Market with two synthetic training runs, live price charts, and a simulated position" width="180" /></a>
     </td>
     <td>
       <strong><a href="https://github.com/ddrisco11/training-market">Training Market</a></strong><br />
