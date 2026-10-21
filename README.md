@@ -6,24 +6,31 @@
 
 I’m an **Applied Math student at Columbia University**, originally from **Winchester, Massachusetts**.
 
-Welcome to my corner of GitHub.
+My projects explore machine learning, the geometry of embeddings, and computer vision for underwater robotics.
 
 <p>
-  <img src="assets/david-driscoll.jpg" alt="David Driscoll’s portrait" width="21%" />
-  <img src="assets/david-photo-2.jpg" alt="A group photo outdoors at night" width="38%" />
-  <img src="assets/david-photo-3.jpg" alt="Beside the Orpheus underwater vehicle at Woods Hole Oceanographic Institution" width="38%" />
+  <img src="assets/david-driscoll.jpg" alt="David Driscoll’s portrait" width="17%" />
+  <img src="assets/david-photo-3.jpg" alt="Beside the Orpheus underwater vehicle at Woods Hole Oceanographic Institution" width="31%" />
 </p>
 
 ## Currently working on
 
 ### [PoSSUM](https://github.com/ddrisco11/PoSSUM)
-Political Slant Scoring Using Mixtures — modular political viewpoint classification.
+Comparing individual language models and model mixtures for political viewpoint classification. Explore the evaluation results and the tradeoffs between prediction quality and inference cost.
 
-### [Geometry of Harmful LLM Outputs](https://github.com/ddrisco11/geometry-of-harmful-llm-outputs-for-alignment)
-Exploring harmful-output geometry with frozen embeddings, controlled category analysis, and classification benchmarks.
+[Evaluation and limitations →](https://github.com/ddrisco11/PoSSUM#development-comparison)
 
 ### [Probabilistic Retrieval Fields](https://github.com/ddrisco11/probabilistic-retrieval-fields)
-Relevance-trained routing over frozen embeddings, with reproducible retrieval experiments and an interactive explorer.
+Can a small neural router find relevant answers without retraining the embedding model? Use the interactive explorer to compare retrieval quality against how much of the corpus is searched.
+
+[Try the explorer →](https://ddrisco11.github.io/probabilistic-retrieval-fields/)
+
+## Selected earlier work
+
+### [Chase API · Underwater robotics](https://github.com/ddrisco11/chase_api)
+A vision-based control system that turns object detections into motor commands for an autonomous underwater vehicle. Built during my summer 2025 work at Woods Hole Oceanographic Institution.
+
+[See how it works →](https://github.com/ddrisco11/chase_api#how-it-works-in-practice)
 
 ---
 
