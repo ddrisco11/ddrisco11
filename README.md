@@ -8,11 +8,6 @@ I’m an **Applied Math student at Columbia University**, originally from **Winc
 
 My projects explore machine learning, the geometry of embeddings, and computer vision for underwater robotics.
 
-<p>
-  <img src="assets/david-driscoll.jpg" alt="David Driscoll’s portrait" width="17%" />
-  <img src="assets/david-photo-3.jpg" alt="Beside the Orpheus underwater vehicle at Woods Hole Oceanographic Institution" width="31%" />
-</p>
-
 ## Currently working on
 
 ### [PoSSUM](https://github.com/ddrisco11/PoSSUM)
