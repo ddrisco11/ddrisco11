@@ -1,5 +1,5 @@
 <p>
-  <img src="assets/banner.svg" alt="David Driscoll — Applied Mathematics at Columbia University" width="100%" />
+  <img src="assets/banner-nyc.png" alt="David Driscoll — Applied Mathematics at Columbia University, over an NYC skyline" width="100%" />
 </p>
 
 ### Hi, I’m David.
@@ -33,5 +33,7 @@ A vision-based control system that turns object detections into motor commands f
 [See how it works →](https://github.com/ddrisco11/chase_api#how-it-works-in-practice)
 
 ---
+
+[LinkedIn](https://www.linkedin.com/in/david-driscoll-977a8422a/) · [Hugging Face](https://huggingface.co/ddriscoll) · [Email](mailto:david.driscoll@columbia.edu)
 
 [Explore my repositories →](https://github.com/ddrisco11?tab=repositories)
