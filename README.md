@@ -50,7 +50,7 @@ My projects explore machine learning, the geometry of embeddings, and computer v
   <tr>
     <td width="190" align="center"><strong>More work</strong></td>
     <td>
-      Some of my work lives in private repositories at the companies I’ve worked with. If you’d like to hear more about what I’ve built, <a href="mailto:david.driscoll@columbia.edu">reach out at david.driscoll@columbia.edu</a> — I’m happy to discuss what I can share.
+      Some of my best work lives in private repositories at the companies I’ve worked with. If you’d like to hear more about what I’ve built, <a href="mailto:david.driscoll@columbia.edu">reach out at david.driscoll@columbia.edu</a>. Additional public projects are under my repositories page.
     </td>
   </tr>
 </table>
