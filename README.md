@@ -8,7 +8,7 @@ I’m an **Applied Math student at Columbia University**, originally from **Winc
 
 My projects explore machine learning, the geometry of embeddings, and computer vision for underwater robotics.
 
-## Projects
+## Highlighted Projects
 
 <table>
   <tr>
