@@ -35,7 +35,7 @@ My projects explore machine learning, the properties of embeddings, computer vis
     </td>
     <td>
       <strong><a href="https://github.com/ddrisco11/chase_api">Chase API</a></strong><br />
-      Vision-based object tracking and motor control for autonomous underwater vehicles, developed at the Woods Hole Oceanographic Institution. Implemented on a rescue ROV with customizable control specifications.
+      Vision-based object tracking and motor control for autonomous underwater vehicles, developed at the Woods Hole Oceanographic Institution. Implemented on a rescue AUV with customizable control specifications.
     </td>
   </tr>
   <tr>
