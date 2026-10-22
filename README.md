@@ -17,7 +17,7 @@ My projects explore machine learning, the properties of embeddings, computer vis
     </td>
     <td>
       <strong><a href="https://github.com/ddrisco11/PoSSUM">PoSSUM</a></strong><br />
-      Political Slant Scoring Using Mixtures: comparing language models and model mixtures for political viewpoint classification.
+      Political Slant Scoring Using Mixtures: comparing language models and model mixtures for zero-shot binary political viewpoint classification.
     </td>
   </tr>
   <tr>
@@ -26,7 +26,7 @@ My projects explore machine learning, the properties of embeddings, computer vis
     </td>
     <td>
       <strong><a href="https://github.com/ddrisco11/Spatial-Graph-Pipeline">Spatial Graph</a></strong><br />
-      An ISO-Space pipeline for mapping spatial relationships in prose into graphs, including expressions beyond conventional place names.
+      An ISO-Space pipeline for zero-shot extraction of spatial relationships in prose into graphs, including expressions beyond conventional place names.
     </td>
   </tr>
   <tr>
@@ -35,7 +35,7 @@ My projects explore machine learning, the properties of embeddings, computer vis
     </td>
     <td>
       <strong><a href="https://github.com/ddrisco11/chase_api">Chase API</a></strong><br />
-      Vision-based object tracking and motor control for autonomous underwater vehicles, developed at the Woods Hole Oceanographic Institution.
+      Vision-based object tracking and motor control for autonomous underwater vehicles, developed at the Woods Hole Oceanographic Institution. Implemented on a rescue ROV with customizable control specifications.
     </td>
   </tr>
   <tr>
@@ -44,7 +44,7 @@ My projects explore machine learning, the properties of embeddings, computer vis
     </td>
     <td>
       <strong><a href="https://github.com/ddrisco11/training-market">Training Market</a></strong><br />
-      A play-money trading prototype for ML training runs, with prices derived from projected training metrics, simulated positions, and a live leaderboard.
+      Keep yourself entertained while monitoring long ML training runs with a paper-money perpetual futures market derived from per-step log loss. Compete against the office with a live leaderboard.
     </td>
   </tr>
   <tr>
