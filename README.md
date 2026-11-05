@@ -17,7 +17,7 @@ My projects explore machine learning, the properties of embeddings, computer vis
     </td>
     <td>
       <strong><a href="https://github.com/ddrisco11/digitaltofilm_conversionmodel">Digital to Film</a></strong><br />
-      A browser-based converter that learns film color from photo pairs. It detects foreground subjects and applies a stronger grade to the background, all on your device. <a href="https://ddrisco11.github.io/digitaltofilm_conversionmodel/">Try the demo</a> · <a href="https://github.com/ddrisco11/digitaltofilm_conversionmodel/blob/main/converter/README.md">Photo credit and model details</a>
+      I built this browser-based converter to learn film color from photo pairs. It detects foreground subjects and applies a stronger grade to the background, all on your device. <a href="https://ddrisco11.github.io/digitaltofilm_conversionmodel/">Try the demo</a> · <a href="https://github.com/ddrisco11/digitaltofilm_conversionmodel/blob/main/converter/README.md">How I trained it</a>
     </td>
   </tr>
   <tr>
