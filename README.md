@@ -13,6 +13,15 @@ My projects explore machine learning, the properties of embeddings, computer vis
 <table>
   <tr>
     <td width="190" align="center">
+      <a href="https://ddrisco11.github.io/digitaltofilm_conversionmodel/"><img src="https://raw.githubusercontent.com/ddrisco11/digitaltofilm_conversionmodel/main/converter/iphone-example.jpg" alt="Original and film-graded versions of an iPhone mountain photograph by Tiia Monto" width="180" /></a>
+    </td>
+    <td>
+      <strong><a href="https://github.com/ddrisco11/digitaltofilm_conversionmodel">Digital to Film</a></strong><br />
+      A browser-based converter that learns film color from photo pairs. It detects foreground subjects and applies a stronger grade to the background, all on your device. <a href="https://ddrisco11.github.io/digitaltofilm_conversionmodel/">Try the demo</a> · <a href="https://github.com/ddrisco11/digitaltofilm_conversionmodel/blob/main/converter/README.md">Photo credit and model details</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="190" align="center">
       <a href="https://github.com/ddrisco11/PoSSUM"><img src="assets/possum.png" alt="PoSSUM model card with an illustrated possum" width="180" /></a>
     </td>
     <td>
