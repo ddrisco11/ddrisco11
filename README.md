@@ -13,7 +13,7 @@ My projects explore machine learning, the properties of embeddings, computer vis
 <table>
   <tr>
     <td width="190" align="center">
-      <a href="https://ddrisco11.github.io/digitaltofilm_conversionmodel/"><img src="https://raw.githubusercontent.com/ddrisco11/digitaltofilm_conversionmodel/main/converter/iphone-example.jpg" alt="Original and film-graded versions of an iPhone mountain photograph by Tiia Monto" width="180" /></a>
+      <a href="https://ddrisco11.github.io/digitaltofilm_conversionmodel/"><img src="https://raw.githubusercontent.com/ddrisco11/digitaltofilm_conversionmodel/main/converter/park-cover.jpg" alt="Original and film-graded versions of a group portrait in a park" width="180" /></a>
     </td>
     <td>
       <strong><a href="https://github.com/ddrisco11/digitaltofilm_conversionmodel">Digital to Film</a></strong><br />
