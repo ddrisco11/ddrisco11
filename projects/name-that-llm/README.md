@@ -8,6 +8,15 @@ My first provider-first ensemble scored **0.619 balanced accuracy on the public 
 
 ## What I could learn from writing style
 
+<table>
+  <tr>
+    <td width="245" align="center"><a href="assets/linear-svm.png"><img src="assets/linear-svm.png" width="230" alt="Blue circles and green diamonds separated by a solid decision boundary, with dashed margins and two labeled support vectors." /></a></td>
+    <td valign="middle"><strong>How a linear SVM works</strong><br /><br />
+    The solid line is the decision boundary. The dashed lines mark its margin. A linear support vector machine learns a boundary that balances a wide margin against penalties for points that cross into it or land on the wrong side, like the green outlier.<br /><br />
+    In my baseline, each passage has 220 writing-style measurements. I fit one linear score for each model against the other 17 and predict the model with the highest score. <a href="https://doi.org/10.1007/BF00994018">Cortes &amp; Vapnik (1995)</a></td>
+  </tr>
+</table>
+
 I started with 2,699 labeled passages responding to 150 prompts. I kept whole prompts together when splitting the data. If answers to the same question appeared on both sides of a split, shared vocabulary could make the attribution task easier than it would be on a new question.
 
 | Input to a linear SVM | Balanced accuracy on held-out prompts |
@@ -16,7 +25,7 @@ I started with 2,699 labeled passages responding to 150 prompts. I kept whole pr
 | 220 linguistic features from the full passage | 0.233 |
 | Character sequences from the full passage | 0.311 |
 
-The 220-feature baseline put each passage into the same numerical coordinates. For example, “words per sentence” captures a different habit from “syllables per word.” I filled missing values with the training-fold medians and standardized each feature. The linear support vector machine (SVM) learned a weighted sum of the features for each of the 18 authors and picked the highest score. [Bruce W. Lee and Jason Lee, *LFTK: Handcrafted Features in Computational Linguistics* (2023)](https://aclanthology.org/2023.bea-1.1/) · [Corinna Cortes and Vladimir Vapnik, *Support-Vector Networks* (1995)](https://doi.org/10.1007/BF00994018)
+The 220-feature baseline put each passage into the same numerical coordinates. For example, “words per sentence” captures a different habit from “syllables per word.” I filled missing values with the training-fold medians and standardized each feature. [Bruce W. Lee and Jason Lee, *LFTK: Handcrafted Features in Computational Linguistics* (2023)](https://aclanthology.org/2023.bea-1.1/)
 
 ```mermaid
 flowchart TD
