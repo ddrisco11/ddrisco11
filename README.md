@@ -31,15 +31,6 @@ My projects explore machine learning, the properties of embeddings, computer vis
   </tr>
   <tr>
     <td width="190" align="center">
-      <a href="https://ddrisco11.github.io/digitaltofilm_conversionmodel/"><img src="https://raw.githubusercontent.com/ddrisco11/digitaltofilm_conversionmodel/main/converter/park-cover.jpg" alt="Original and film-graded versions of a group portrait in a park" width="180" /></a>
-    </td>
-    <td>
-      <strong><a href="https://github.com/ddrisco11/digitaltofilm_conversionmodel">Digital to Film</a></strong><br />
-      I built this browser-based converter to learn film color from photo pairs. It detects foreground subjects and applies a stronger grade to the background, all on your device. <a href="https://ddrisco11.github.io/digitaltofilm_conversionmodel/">Try the demo</a> · <a href="https://github.com/ddrisco11/digitaltofilm_conversionmodel/blob/main/converter/README.md">How I trained it</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="190" align="center">
       <a href="https://github.com/ddrisco11/Spatial-Graph-Pipeline"><img src="assets/spatial-graph.png" alt="Spatial graph showing places and their relationships in prose" width="180" /></a>
     </td>
     <td>
@@ -63,6 +54,15 @@ My projects explore machine learning, the properties of embeddings, computer vis
     <td>
       <strong><a href="https://github.com/ddrisco11/training-market">Training Market</a></strong><br />
       Keep yourself entertained while monitoring long ML training runs with a paper-money perpetual futures market derived from per-step log loss. Compete against the office with a live leaderboard.
+    </td>
+  </tr>
+  <tr>
+    <td width="190" align="center">
+      <a href="https://ddrisco11.github.io/digitaltofilm_conversionmodel/"><img src="https://raw.githubusercontent.com/ddrisco11/digitaltofilm_conversionmodel/main/converter/park-cover.jpg" alt="Original and film-graded versions of a group portrait in a park" width="180" /></a>
+    </td>
+    <td>
+      <strong><a href="https://github.com/ddrisco11/digitaltofilm_conversionmodel">Digital to Film</a></strong><br />
+      I built this browser-based converter to learn film color from photo pairs. It detects foreground subjects and applies a stronger grade to the background, all on your device. <a href="https://ddrisco11.github.io/digitaltofilm_conversionmodel/">Try the demo</a> · <a href="https://github.com/ddrisco11/digitaltofilm_conversionmodel/blob/main/converter/README.md">How I trained it</a>
     </td>
   </tr>
   <tr>
