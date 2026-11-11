@@ -2,7 +2,7 @@
 
 # Name That LLM
 
-Could I tell two versions of Gemini Flash apart from a single paragraph? In one development run, my classifier confused Gemini 3.7 Flash and 3.8 Flash 32 times. That pair helped shape how I approached Kaggle’s *Name That LLM*, a competition to identify which of 18 language models wrote a passage. I built a classifier that first picks one of six providers, then follows a small tree of decisions within that provider. [Competition](https://www.kaggle.com/competitions/name-that-llm)
+In Kaggle’s *Name That LLM*, 18 language models from six providers answer questions about topics ranging from physics to creative writing. The training set includes the author of each paragraph. On the hidden test set, I get the passage text and an ID, and I have to predict the exact model that wrote it. Recognizing Google’s style gets me only partway there. A paragraph from Gemini 3.7 Flash earns credit only if I can distinguish it from Gemini 3.8 Flash and the other 16 models. I built my classifier around those two decisions. [Competition overview](https://www.kaggle.com/competitions/name-that-llm/overview)
 
 My first provider-first ensemble scored **0.619 balanced accuracy on the public leaderboard**. Balanced accuracy gives each model equal weight by averaging its recall. I used that metric throughout because a classifier could otherwise gain ground on a common model while getting worse on a rare one.
 
@@ -16,7 +16,28 @@ I started with 2,699 labeled passages responding to 150 prompts. I kept whole pr
 | 220 linguistic features from the full passage | 0.233 |
 | Character sequences from the full passage | 0.311 |
 
-The full paragraph gave a simple character model a substantial advantage. I kept a lexical classifier in the ensemble and added explicit measurements of punctuation, function words, sentence rhythm, and how the opening differed from the ending. The 220-feature baseline used Lee and Lee’s Linguistic Feature Toolkit. The later tree uses its own smaller passage-style extractor. [LFTK paper, BEA 2023](https://aclanthology.org/2023.bea-1.1/)
+The 220-feature baseline put each passage into the same numerical coordinates. For example, “words per sentence” captures a different habit from “syllables per word.” I filled missing values with the training-fold medians and standardized each feature. The linear support vector machine (SVM) learned a weighted sum of the features for each of the 18 authors and picked the highest score. [Bruce W. Lee and Jason Lee, *LFTK: Handcrafted Features in Computational Linguistics* (2023)](https://aclanthology.org/2023.bea-1.1/) · [Corinna Cortes and Vladimir Vapnik, *Support-Vector Networks* (1995)](https://doi.org/10.1007/BF00994018)
+
+```mermaid
+flowchart TD
+    P["Full passage"] --> L["220 LFTK measurements<br/>Word counts, sentence length, syllables"]
+    L --> S["Fill missing values and standardize<br/>using the training fold"]
+    S --> M["Baseline linear SVM<br/>One score per model"]
+    P --> T["Character and word n-grams<br/>plus typography"]
+    T --> C["Ensemble’s lexical SVM<br/>Scores calibrated on held-out prompts"]
+    P --> R["Passage structure<br/>Rhythm, function words, opening and ending"]
+    R --> E["Combine with Qwen evidence"]
+    C --> E
+    E --> D["Provider and model decisions"]
+```
+
+The character SVM gained almost 18 percentage points when I gave it the whole passage instead of just the opening sentence. I kept character and word patterns in the ensemble’s lexical SVM. The tree also gets separate measurements of punctuation, sentence rhythm, and how the opening differs from the ending.
+
+## Reading the mistakes
+
+![Confusion matrix for 899 single-passage development predictions. Rows show the actual author and columns the predicted author. The outlined cells show 17 Gemini 3.7 Flash passages predicted as 3.8 Flash and 16 in the reverse direction.](assets/development-confusion.png)
+
+Each cell counts passages. The diagonal contains correct predictions, blank cells represent zero, and the thin lines separate providers. Read across the Gemini 3.7 Flash row. **17** passages landed in the 3.8 Flash column. Reading the other way gives **16** more errors. A classifier could recognize the right provider on all 33 and still miss the exact model every time. This matrix records the provider-first baseline on development prompts, before I added the specialist tree.
 
 ## From a provider to an exact model
 

@@ -17,7 +17,7 @@ My projects explore machine learning, the properties of embeddings, computer vis
     </td>
     <td>
       <strong><a href="projects/name-that-llm/">Name That LLM</a></strong><br />
-      I built a classifier that identifies which of 18 language models wrote a passage. It uses writing style to pick a provider, then narrows the prediction with specialists trained on the models it most often confuses. <a href="projects/name-that-llm/">See the tree and results</a>
+      Kaggle gives me an anonymous paragraph and asks which of 18 language models wrote it. I use writing style to identify one of six providers, then train specialists to tell closely related versions apart. <a href="projects/name-that-llm/">See the tree and results</a>
     </td>
   </tr>
   <tr>
