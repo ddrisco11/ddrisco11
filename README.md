@@ -10,8 +10,6 @@ My projects explore machine learning, the properties of embeddings, computer vis
 
 ## Highlighted Projects
 
-**[Response to Prompt](https://github.com/ddrisco11/response-to-prompt)** — I train a small language model on Apple silicon to reconstruct the original user prompt from a single assistant response, then measure how often it recovers the wording exactly.
-
 <table>
   <tr>
     <td width="190" align="center">
@@ -20,6 +18,15 @@ My projects explore machine learning, the properties of embeddings, computer vis
     <td>
       <strong><a href="projects/name-that-llm/">Name That LLM</a></strong><br />
       Kaggle gives me an anonymous paragraph and asks which of 18 language models wrote it. I use writing style to identify one of six providers, then train specialists to tell closely related versions apart. <a href="projects/name-that-llm/">See the tree and results</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="190" align="center">
+      <a href="https://github.com/ddrisco11/response-to-prompt"><img src="https://raw.githubusercontent.com/ddrisco11/response-to-prompt/main/trout.png" alt="TROUT model card with an illustrated rainbow trout" width="180" /></a>
+    </td>
+    <td>
+      <strong><a href="https://github.com/ddrisco11/response-to-prompt">TROUT</a></strong><br />
+      inpuT Reconstruction from Output Using Transformers. I train a small language model to infer the original user prompt from one assistant response and measure how closely it recovers the meaning.
     </td>
   </tr>
   <tr>
