@@ -10,6 +10,8 @@ My projects explore machine learning, the properties of embeddings, computer vis
 
 ## Highlighted Projects
 
+**[Response to Prompt](https://github.com/ddrisco11/response-to-prompt)** — I train a small language model on Apple silicon to reconstruct the original user prompt from a single assistant response, then measure how often it recovers the wording exactly.
+
 <table>
   <tr>
     <td width="190" align="center">
