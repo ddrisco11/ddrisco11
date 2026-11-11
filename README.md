@@ -13,11 +13,11 @@ My projects explore machine learning, the properties of embeddings, computer vis
 <table>
   <tr>
     <td width="190" align="center">
-      <a href="https://ddrisco11.github.io/digitaltofilm_conversionmodel/"><img src="https://raw.githubusercontent.com/ddrisco11/digitaltofilm_conversionmodel/main/converter/park-cover.jpg" alt="Original and film-graded versions of a group portrait in a park" width="180" /></a>
+      <a href="projects/name-that-llm/"><img src="projects/name-that-llm/assets/kaggle-banner.png" alt="Name That LLM competition artwork" width="180" /></a>
     </td>
     <td>
-      <strong><a href="https://github.com/ddrisco11/digitaltofilm_conversionmodel">Digital to Film</a></strong><br />
-      I built this browser-based converter to learn film color from photo pairs. It detects foreground subjects and applies a stronger grade to the background, all on your device. <a href="https://ddrisco11.github.io/digitaltofilm_conversionmodel/">Try the demo</a> · <a href="https://github.com/ddrisco11/digitaltofilm_conversionmodel/blob/main/converter/README.md">How I trained it</a>
+      <strong><a href="projects/name-that-llm/">Name That LLM</a></strong><br />
+      I built a classifier that identifies which of 18 language models wrote a passage. It uses writing style to pick a provider, then narrows the prediction with specialists trained on the models it most often confuses. <a href="projects/name-that-llm/">See the tree and results</a>
     </td>
   </tr>
   <tr>
@@ -27,6 +27,15 @@ My projects explore machine learning, the properties of embeddings, computer vis
     <td>
       <strong><a href="https://github.com/ddrisco11/PoSSUM">PoSSUM</a></strong><br />
       Political Slant Scoring Using Mixtures: comparing language models and model mixtures for zero-shot binary political viewpoint classification.
+    </td>
+  </tr>
+  <tr>
+    <td width="190" align="center">
+      <a href="https://ddrisco11.github.io/digitaltofilm_conversionmodel/"><img src="https://raw.githubusercontent.com/ddrisco11/digitaltofilm_conversionmodel/main/converter/park-cover.jpg" alt="Original and film-graded versions of a group portrait in a park" width="180" /></a>
+    </td>
+    <td>
+      <strong><a href="https://github.com/ddrisco11/digitaltofilm_conversionmodel">Digital to Film</a></strong><br />
+      I built this browser-based converter to learn film color from photo pairs. It detects foreground subjects and applies a stronger grade to the background, all on your device. <a href="https://ddrisco11.github.io/digitaltofilm_conversionmodel/">Try the demo</a> · <a href="https://github.com/ddrisco11/digitaltofilm_conversionmodel/blob/main/converter/README.md">How I trained it</a>
     </td>
   </tr>
   <tr>
