@@ -4,9 +4,14 @@
 
 ### Hi, I’m David.
 
-I’m an **Applied Math student at Columbia University**, originally from **Winchester, Massachusetts**.
+I’m an **Applied Math student at Columbia University**, originally from Massachusetts.
 
 My projects explore machine learning, the properties of embeddings, computer vision, natural language processing, and more!
+
+Beyond tech here are some other things I'm interested in: 
+Spearfishing, Golf, Ireland Rugby, Books, Boston Sports, Kayaking, 90s Poirot series, and other stuff! 
+
+Let's connect: david.driscoll@columbia.edu
 
 ## Highlighted Projects
 
