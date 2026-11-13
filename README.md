@@ -8,10 +8,6 @@ I’m an **Applied Math student at Columbia University**, originally from Massac
 
 My projects explore machine learning, the properties of embeddings, computer vision, natural language processing, and more!
 
-Beyond tech here are some other things I'm interested in:
-
-Spearfishing, Golf, Ireland Rugby, [Books](https://github.com/ddrisco11/ddrisco11/blob/main/books.txt), Boston Sports, Kayaking, 90s Poirot series, Running!
-
 Let's connect: david.driscoll@columbia.edu
 
 ## Highlighted Projects
